@@ -15,12 +15,34 @@
     </h1>
     
     <div class="game-area">
-        <p class = "score"> Correct Answers<span id="score">0</span></p>
-        <p class = "score">Incorrect Answers<span id="Incorrect">0</span></p>
+    <div class="controls-area"></div>
+    <button class="btn btn--big btn--green">
+        <i class="fas fa-plus"></i>
+    </button>
+    <button class="btn btn--big btn--blue">
+        <i class="fas fa-minus"></i>
+    </button>
+    <button class="btn btn--big btn--orange">
+        <i class="fas fa-time"></i>
+    </button>
+    <button class="btn btn--big btn--red">
+        <i class="fas fa-divide"></i>
+    </button>
+      
     </div>
+    <div class="questions-area">
+        <spane id="operand1">0</spane>
+        <spane id="operator">x</spane>
+        <spane id="operand2">0</spane>
+        <spane>=</spane>
+        <p class="answer-message">Enter Anaswer</p>
+        <input id="answer-box" type="number">
+    </div>
+    <button class="btn btn--gray">Submit Answer</button>
 
     <div class="score-area">
-
+        <p class = "score"> Correct Answers<span id="score">0</span></p>
+        <p class = "score">Incorrect Answers<span id="Incorrect">0</span></p>
     </div>
 
 
